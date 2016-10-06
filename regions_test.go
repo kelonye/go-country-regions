@@ -6,7 +6,7 @@ import (
 
 func TestGetByNumeric(t *testing.T) {
 
-  expectedRegion := "North America"
+  expectedRegion := "NORTH_AMERICA"
 	region, _ := Region("US")
 
 	if region != expectedRegion {
