@@ -7,7 +7,7 @@ import (
 
 func main(){
 
-	region, _ := regions.Region("US")
+	region, _ := regions.Region("FX")
 
 	fmt.Printf("%s\n", region)
 
